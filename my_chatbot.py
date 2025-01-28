@@ -3,7 +3,7 @@ from langchain_openai import OpenAI
 import gradio as gr
 import os
  
-# Configurar la clave de OpenAI
+# Configurar la clave OpenAI
 os.environ["OPENAI_API_KEY"] = ''  # Reemplaza con tu clave de OpenAI
 
 # Función para construir el índice
