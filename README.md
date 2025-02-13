@@ -68,8 +68,12 @@ Asegúrate de tener Docker instalado en tu máquina. Para instalar Docker, puede
 ## Notas
 
    -**Asegúrate de configurar tu clave de API de OpenAI.** Puedes establecer la variable de entorno OPENAI_API_KEY dentro del contenedor si es necesario.
+   ```bash
+   docker run -p 7860:7860 -e OPENAI_API_KEY='tu_clave_aqui' my_chatbot
+   ```
 
    -**Este proyecto es un trabajo en progreso, y se pueden agregar más funcionalidades en el futuro.**
+   
 
 ## Contribuciones
 
